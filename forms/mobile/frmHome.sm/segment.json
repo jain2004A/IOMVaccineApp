@@ -10,11 +10,11 @@
         {
             "lbl1": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "nkjfdf"
+                "text": ""
             },
             "lbl2": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "jfdjs"
+                "text": ""
             },
             "lbl3": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
