@@ -1,0 +1,162 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_bounces_": true,
+    "_data_": [
+        {
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lbl3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lbl4": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCertificate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblVaccine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "160dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "86%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "disabledSkins": {},
+    "editstyle": "none",
+    "enabledictionary": false,
+    "enablehapticfeedback": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "fc71257d73c747dcacfe6a214b88ebe7",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segment",
+    "info": null,
+    "invokedProperty": "pageOffDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "enableDictionary": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ef2d99ba4a3246558b561fb3301b85a3",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoff.png",
+    "pageondotimage": "page.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxScroll",
+    "pf": "CopyfrmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c74cfc3005414f45b90334a0647187e6",
+    "rowcounter": 0,
+    "rowfocusskin": "sa97ea2d725b40008b6ef04a775bb445",
+    "rowskin": "sa97ea2d725b40008b6ef04a775bb445",
+    "rowtemplate": "flx1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s1fc0fc1a4dc43aa994d36094d34c052",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showprogressindicator": true,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1099,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flx1": "flx1",
+        "flx2": "flx2",
+        "flx3": "flx3",
+        "flx4": "flx4",
+        "flx5": "flx5",
+        "flx6": "flx6",
+        "lbl1": "lbl1",
+        "lbl2": "lbl2",
+        "lbl3": "lbl3",
+        "lbl4": "lbl4",
+        "lblCertificate": "lblCertificate",
+        "lblVaccine": "lblVaccine"
+    },
+    "zindex": 1
+}

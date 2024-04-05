@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        4,
+        4,
+        4
+    ],
+    "_skin_": "sea02fc4b7f04ed497038f6445b99d1b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "richTxtNote",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e03c07388aff4bfba46033c891f3b4a8",
+    "linkskin": "s057bce7e7274337b27e916786a4323f",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flxNote",
+    "pf": "frmCerOfVac",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

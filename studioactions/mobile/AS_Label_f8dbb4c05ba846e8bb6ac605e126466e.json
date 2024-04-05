@@ -1,0 +1,56 @@
+{
+    "AS_Label_f8dbb4c05ba846e8bb6ac605e126466e": {
+        "id": "AS_Label_f8dbb4c05ba846e8bb6ac605e126466e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d269907352ae4bc38d6649ef052de121"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_d5fe380e717145878bc1e3fd46f21e01",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "Form1",
+            "itemKUID": "d269907352ae4bc38d6649ef052de121",
+            "widgetKUID": "b4723a5aca46472daf3c1815f45e4afe",
+            "wType": "Label",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "90",
+                "opacity": "100",
+                "displayAnimationId": "",
+                "duration": "0",
+                "delay": "0",
+                "iterationCount": "1",
+                "x": "15",
+                "y": "15"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "voltmx.anim.FILL_MODE_FORWARDS",
+                "duration": "0"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION_d5fe380e717145878bc1e3fd46f21e01",
+            "displayAnimationId": "ROTATE_ACTION_d5fe380e717145878bc1e3fd46f21e01",
+            "forkedPlatform": "all"
+        }]
+    }
+}
