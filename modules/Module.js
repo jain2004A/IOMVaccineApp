@@ -1,4 +1,101 @@
 //Type your code here
+//Type your code here
+
+// var FamilyName = ["John Gregory Smith","Sarah Smith","James Smith","Maria Smith"];
+
+// var DOB = ["Born on 20-Aug-1990","Born on 11-Oct-1994","Born on 18-Apr-2004","Born on 22-Nov-2006"];
+// var SelectedImage = ["L"];
+
+var FamilyDetail = [
+  {FullName: "John Gregory Smith",
+   DOB:"Born on 20-Aug-1990",
+   
+  },
+  {FullName: "Sarah Smith",
+   DOB:"Born on 11-Oct-1994",
+  
+  },
+  {FullName: "James Smith",
+   DOB:"Born on 18-Apr-2004",
+   
+  },
+  {FullName: "Maria Smith",
+   DOB:"Born on 22-Nov-2006",
+  
+  }
+  
+];
+
+ var Symptoms = [
+   {
+     ImgSymptoms:"pain_icon.png",
+     SymptomsType : "Local reaction at injection site (pain, redness or swelling)",
+   },
+    {
+     ImgSymptoms:"general_fatigue_icon.png",
+     SymptomsType : "General fatigue and body aches",
+   },
+    {
+     ImgSymptoms:"fever_icon.png",
+     SymptomsType : "Fever",
+   },
+    {
+     ImgSymptoms:"nausea_icon.png",
+     SymptomsType : "Nausea or vomiting",
+   },
+    {
+     ImgSymptoms:"skin_rash_icon.png",
+     SymptomsType : "Skin rash",
+   },
+   {
+     ImgSymptoms:"seizure_icon.png",
+     SymptomsType : "Seizure or unconsciousness",
+   },
+ ];
+
+
+
+
+var Status = [
+  {
+    Date : "20-Jul-2022",
+    FullName : "John Gregory Smith",
+    Status : "Reopened",
+    Symptoms : "Local reaction at injection site (pain, redness or swelling), Nausea or vomiting...",
+    Issue : "Reported Health Issue after Vaccination",
+    Icon : "N",
+  },
+  
+  {
+    Date : "20-Jul-2022",
+    FullName : "John Gregory Smith",
+    Status : "Open",
+    Symptoms : "Local reaction at injection site (pain, redness or swelling), Nausea or vomiting...",
+    Issue : "Reported Health Issue after Vaccination",
+    Icon : "N",
+  },
+  
+  {
+    Date : "20-Jul-2022",
+    FullName : "Sarah Smith",
+    Status : "In Progress",
+    Symptoms : "Symptoms: Dizziness, Hives, Vomiting, High fever and cold",
+    Issue : "Other Reported Health Conditions",
+    Icon : "N",
+  },
+  
+  {
+    Date : "15-Jul-2022",
+    FullName : "John Gregory Smith",
+    Status : "Closed",
+    Symptoms : "Symptoms: Dizziness, Hives, Vomiting, High fever and cold",
+    Issue : "Other Reported Health Conditions",
+    Icon : "N",
+  },
+]
+
+// var Family = JSON.stringify(FamilyDetail);
+
 segmentData =[
   {
     name:"John Gregory Smith",

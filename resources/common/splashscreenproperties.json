@@ -8,10 +8,7 @@
             "android": {},
             "iphone": {
                 "splashConfig": {
-                    "children": [],
-                    "skin": {
-                        "backgroundColor": "00000000"
-                    }
+                    "children": []
                 }
             },
             "spa": {},
@@ -26,10 +23,7 @@
             "ipad": {
                 "landscape": {},
                 "splashConfig": {
-                    "children": [],
-                    "skin": {
-                        "backgroundColor": "00000000"
-                    }
+                    "children": []
                 }
             },
             "spa": {},

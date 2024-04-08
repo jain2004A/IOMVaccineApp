@@ -1,0 +1,342 @@
+{
+    "classname": "StatusHead",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d75fa52dfdc04e039692341f26abe704",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityBack",
+                        "srcWidget": "flxBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c92c39c399a34b00b87f6a898175a53b",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a689d4db791a414b9d4f9f88c0dd9781",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityHamb",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityHamb",
+                        "srcWidget": "flxHamb",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b12408229e5b428fba7681440073c1e2",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a5802055ade6474d99978762d4f5fc04",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityReport",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityReport",
+                        "srcWidget": "lblReport",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ad6fd9c6928145408e1a99145a78aa81",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b0f18c8dde01478db47fff9689348db5",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityStatusOther",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityStatusOther",
+                        "srcWidget": "lblStatusOther",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e4210cf7efae4cba921bb2c146cc17b9",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c7d1faf78c604023a86c5c1fc728adbf",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickBack",
+                        "srcWidget": "flxBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c92c39c399a34b00b87f6a898175a53b",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f24b9a4177d04ef897d6e1fe100712e2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textReport",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblReport",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ad6fd9c6928145408e1a99145a78aa81"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a6d1df47b99e456da7068915ab930808",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "srcHome",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Source",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgEllipseHome",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "eec8047edbd944c594bb9c1efcb754a2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cc4fdaa817434a5f93a5bd88eb3c075d",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 3,
+                    "propertyKey": "srcSymptoms",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Source",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgEllipseSymptoms",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "e1ff0001fab14dfb937d2ca5a8a1672b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "adee9c68bb9f4b4b8e754d5a937f8401",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "srcDate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Source",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgEllipseDate",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ec424b36492a4227858acbf139d335f8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "id8fc27d4c7c49c38b232be5c4dcdb0c",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "srcReview",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Source",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgEllipseReview",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "b489355e3e5a49f191f5225a2e7d8bdf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gb3b2a7b7b0d4683a2371b642ea78d7f",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "skinEllipseHome",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblimgEllipseHome",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fda210c822744a75acc82cc500005ff7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a413f82ac54e471eb934406e72cf693c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "skinEllipseSymptoms",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblimgEllipseSymptoms",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b0fe15ffbccb4a78bfc23e00ff03ceab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bcb98e69ccf64e7796ff9936ff7399af",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 8,
+                    "propertyKey": "skinEllipseDate",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblimgEllipseDate",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ec2fa80f1f954306b8f1178e05792014"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d9a417a0ad674248a02554d6b0fb6b26",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 9,
+                    "propertyKey": "skinEllipseReview",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblimgEllipseReview",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ge1416bd79e948b8a9542417d9164e94"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmx",
+    "version": "1.0.0"
+}

@@ -5,6 +5,8 @@ define({
     this.view.postShow = this.onPostShow;
     this.view.flxAppoinment.onClick = this.Appoinment;
     this.view.flxNortification.onClick = this.Notification;
+     this.view.flxImg1.onClick = this.NavHealthReportHome;
+     this.view.menusec.onClickStatus = this.NavReportStatus;
   },
 
   
@@ -116,7 +118,19 @@ define({
   },
   
   
-
+NavHealthReportHome: function(){
+  
+  var ntf = new voltmx.mvc.Navigation("frmHealthReportHome");
+    ntf.navigate();
+  
+},
+  
+  NavReportStatus: function(){
+  
+  var ntf = new voltmx.mvc.Navigation("frmReportStatus");
+    ntf.navigate();
+  
+},
 
 
 

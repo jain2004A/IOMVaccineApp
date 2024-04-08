@@ -1,0 +1,225 @@
+{
+    "classname": "Status",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dbc34d6b16fd4620bdb05eeb2f126730",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityReport",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityReport",
+                        "srcWidget": "lblReport",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ja07b8d18c44486886b66efb568aee43",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "icdede96708a4ecbbdbea590026e061a",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityOther",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityOther",
+                        "srcWidget": "lblStatusOther",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gfbf41bfa04149da85603625ea6d5989",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ha14960f1231427fb1ff5421b9a19638",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityBack",
+                        "srcWidget": "flxBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c7a409c187104c00aeb786f96a7f322d",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "daa78d4c69e74ff3a23181324888ccd1",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityHamb",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityHamb",
+                        "srcWidget": "flxHamb",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "da00732cc5944211a68f69f620d914a4",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d58ad21036c141f8b433e04a6d98371a",
+                    "originalPropertyKey": "setVisibility",
+                    "propertyKey": "setVisibilityOther2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setVisibilityOther2",
+                        "srcWidget": "lblStatusOther2",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b3408759d1d441f1873e5c309f05ef2d",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b41656c109594d80a6c69cb7528d8367",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickBack",
+                        "srcWidget": "flxBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c7a409c187104c00aeb786f96a7f322d",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f594d9c113864e7a92d6094d42c557fd",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickHamb",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickHamb",
+                        "srcWidget": "flxHamb",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "da00732cc5944211a68f69f620d914a4",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e6a2489936bc4bd69fb1d5317b1fa4b9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textStatusOther",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "TextStatusOther",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblStatusOther",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gfbf41bfa04149da85603625ea6d5989"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e9737ba333cf4ee0a8fe132f816ce921",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "textReport",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "TextReport",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblReport",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ja07b8d18c44486886b66efb568aee43"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc3fe6c31fd34b8e80a8a8fac2cbacbd",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "textStatusOther2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "TexStatusOther",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblStatusOther2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b3408759d1d441f1873e5c309f05ef2d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmx",
+    "version": "1.0.0"
+}

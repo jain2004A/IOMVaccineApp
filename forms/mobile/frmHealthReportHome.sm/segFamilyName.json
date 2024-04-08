@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgSelected": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "lblDateOfBirth": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Born on 20-Aug-1990"
+            },
+            "lblFullName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Gregory Smith"
+            },
+            "lblImgSlected": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "L"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segFamilyName",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e85e56be4571400893d3eb1eb70b503a",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexGroup0b6f42b3e18cb49",
+    "pf": "frmHealthReportHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "afc843ba75c1470386688d93f70ef15b",
+    "rowcounter": 0,
+    "rowfocusskin": "sf8df6b672654db6aa21b134bec1316e",
+    "rowskin": "s7155b15bf3e47a6849bbf385378e62d",
+    "rowtemplate": "Flex0c8b2b68f9ecb45",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s79727d5d563491bb6c0c12eef5033ab",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Flex0c8b2b68f9ecb45": "Flex0c8b2b68f9ecb45",
+        "FlexContainer0bc0910c57d9a4d": "FlexContainer0bc0910c57d9a4d",
+        "FlexGroup0c07ee07351f84d": "FlexGroup0c07ee07351f84d",
+        "imgSelected": "imgSelected",
+        "lblDateOfBirth": "lblDateOfBirth",
+        "lblFullName": "lblFullName",
+        "lblImgSlected": "lblImgSlected"
+    },
+    "zindex": 1
+}
